@@ -446,6 +446,16 @@ define Device/asus_rt-ac65p
 endef
 TARGET_DEVICES += asus_rt-ac65p
 
+define Device/asus_rt-ac65u
+  $(Device/nand)
+  DEVICE_VENDOR := ASUS
+  DEVICE_MODEL := RT-AC65U
+  DEVICE_DTS := mt7621_asus_rt-ac65u
+  IMAGE_SIZE := 51200k
+  DEVICE_PACKAGES := kmod-usb3 kmod-mt7615-firmware uboot-envtools
+endef
+TARGET_DEVICES += asus_rt-ac65u
+
 define Device/asus_rt-ac85p
   $(Device/nand)
   DEVICE_VENDOR := ASUS
