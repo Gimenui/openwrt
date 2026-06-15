@@ -72,6 +72,7 @@ platform_do_upgrade() {
 	ampedwireless,ally-r1900k|\
 	arcadyan,we420223-99|\
 	asus,rt-ac65p|\
+	asus,rt-ac65u|\
 	asus,rt-ac85p|\
 	asus,rt-ax53u|\
 	asus,rt-ax54|\
